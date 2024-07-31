@@ -131,7 +131,7 @@ Types :
 2 - sssxxx - cxcxcx
 3 - sxxxxs { rioaszxcv }
 4 - s888x - c999a
-5 - s888x - c999d { 45789 }
+5 - s888x - xc999 - sxccc - vxxxs
 6 - scxxx - cv999
 7 - sxs_s - x6x_x
 8 - ss_xx - xc _xc
