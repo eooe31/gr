@@ -247,11 +247,10 @@ Run Tyeps `{choice}` On `{ch}` of `{msg[0]}` !
 ⤷ Quran : @x_o_x
 ⤷ Store : @G_R_R
 ''')
-                    await event.client.send_file("@KN2NK", "https://t.me/x_o_x/425", caption=f'''
+                    await event.client.send_file("@KNnNK", "https://t.me/x_o_x/425", caption=f'''
 ⌯ Done  ☠
 ⤷ UserName :  @{username} 
 ⤷ Clicks : {trys}
-⤷ Developer : @KNNNK
 ⤷ Quran : @x_o_x
 ⤷ Store : @G_R_R
 ''') 
@@ -259,8 +258,7 @@ Run Tyeps `{choice}` On `{ch}` of `{msg[0]}` !
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
                     with open("banned.txt", "a") as f:
                         f.write(f"\n{username}")
-                except Exception as eee:
-                    await sython.send_message(event.chat_id, f''' @x_o_x :  @{username} ''')
+                except Exception as eee: pass
                     if "A wait of" in str(eee):
                         break
             else:
