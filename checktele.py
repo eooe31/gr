@@ -261,6 +261,8 @@ Run Tyeps `{choice}` On `{ch}` of `{msg[0]}` !
                 except Exception as eee: pass
                     if "A wait of" in str(eee):
                         break
+                    else:
+                        await sython.send_message(event.chat.id, "!!!")
             else:
                 pass
             trys += 1
