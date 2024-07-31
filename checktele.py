@@ -258,11 +258,10 @@ Run Tyeps `{choice}` On `{ch}` of `{msg[0]}` !
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
                     with open("banned.txt", "a") as f:
                         f.write(f"\n{username}")
-                except Exception as eee: 
+                except Exception as eee:
+                    await sython.send_message
                     if "A wait of" in str(eee):
                         break
-                    else:
-                        await sython.send_message(event.chat.id, "!!!")
             else:
                 pass
             trys += 1
