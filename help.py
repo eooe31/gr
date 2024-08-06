@@ -127,10 +127,10 @@ Hunt sours (max)
 
 Types :
 ------------------------
-1 - zxzxzx - s666ss
-2 - xccccx - s66sss
-3 - zz_zs - ss_s7
-4 - xx_cc - ss_77
+1 - zxzxzx - xnnnnx
+2 - xccccx - maaama
+3 - x888xx - bb0b00
+4 - x8x888 - ss77ss
 5 - sxxxc - sxkkk
 6 - xc777 - sn999
 7 - sdxbot - sx5bot - s4dbot - s55bot - ss5bot 
