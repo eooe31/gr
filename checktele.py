@@ -45,21 +45,7 @@ def gen_user(choice):
     if choice == "1":
         c = d = random.choices(a)
         d = random.choices(e)
-        f = [c[0], d[0], c[0], c[0], c[0], d[0]]
-        random.shuffle(f)
-        username = ''.join(f)
-        if username in banned[0]:
-            c = d = random.choices(a)
-            d = random.choices(e)
-            f = [c[0], d[0], c[0], d[0], d[0], d[0]]
-            random.shuffle(f)
-            username = ''.join(f)
-        else:
-            pass
-    if choice == "2":
-        c = d = random.choices(a)
-        d = random.choices(e)
-        f = [c[0], d[0], d[0], c[0], c[0], d[0]]
+        f = [c[0], d[0], c[0], c[0], d[0], d[0]]
         random.shuffle(f)
         username = ''.join(f)
         if username in banned[0]:
@@ -70,113 +56,133 @@ def gen_user(choice):
             username = ''.join(f)
         else:
             pass
-    if choice == "3":
-        c = d = random.choices("rioaszxcv")
+    if choice == "2":
+        c = d = random.choices(a)
         d = random.choices(e)
         f = [c[0], d[0], c[0], c[0], c[0], d[0]]
         random.shuffle(f)
         username = ''.join(f)
         if username in banned[0]:
-            c = d = random.choices("rioaszxcv")
-            d = random.choices("ertioaskzxcvn5789")
+            c = d = random.choices(a)
+            d = random.choices(e)
             f = [c[0], d[0], c[0], d[0], d[0], d[0]]
             random.shuffle(f)
             username = ''.join(f)
         else:
             pass
-    if choice == "4":
-        c = random.choices(a)
-        d = random.choices(a)
-        s = random.choices(b)
-        f = [c[0], s[0], s[0], s[0], d[0]]
+    if choice == "3":
+        c = d = random.choices(a)
+        d = random.choices(e)
+        f = [c[0], d[0], "_", d[0], d[0]]
+        random.shuffle(f)
         username = ''.join(f)
         if username in banned[0]:
-            c = random.choices(a)
-            d = random.choices(b)
-            s = random.choices(a)
-            f = [c[0], d[0], d[0], d[0], s[0]]
+            c = d = random.choices(a)
+            d = random.choices(e)
+            f = [c[0], c[0], "_", c[0], d[0]]
+            random.shuffle(f)
+            username = ''.join(f)
+        else:
+            pass
+    if choice == "4":
+        c = d = random.choices(a)
+        d = random.choices(e)
+        f = [c[0], c[0], "_", d[0], d[0]]
+        random.shuffle(f)
+        username = ''.join(f)
+        if username in banned[0]:
+            c = d = random.choices(a)
+            d = random.choices(e)
+            f = [c[0], c[0], "_", d[0], d[0]]
+            random.shuffle(f)
             username = ''.join(f)
         else:
             pass
     if choice == "5":
         c = random.choices(a)
         d = random.choices(a)
-        s = random.choices(e)
-        f = [c[0], s[0], s[0], s[0], d[0]]    
+        s = random.choices(a)
+        f = [c[0], d[0], s[0], s[0], s[0]]    
         username = ''.join(f)
         if username in banned[0]:
             c = random.choices(a)
             d = random.choices(a)
-            s = random.choices(e)
-            f = [c[0], d[0], s[0], s[0], s[0]]    
+            s = random.choices(a)
+            f = [c[0], s[0], s[0], s[0], d[0]]    
             username = ''.join(f)
         else:
             pass
     if choice == "6":
         c = random.choices(a)
         d = random.choices(a)
-        s = random.choices(e)
+        s = random.choices(b)
         f = [c[0], d[0], s[0], s[0], s[0]]    
         username = ''.join(f)
         if username in banned[0]:
             c = random.choices(a)
             d = random.choices(a)
-            s = random.choices(e)
+            s = random.choices(b)
             f = [c[0], d[0], s[0], s[0], s[0]]    
             username = ''.join(f)
         else:
             pass
     if choice == "7":
-        c = d = random.choices(a)
+        c = random.choices(a)
         d = random.choices(e)
-        f = [c[0], d[0], "_", c[0], c[0]]
+        s = random.choices(e)
+        f = [c[0], s[0], d[0]]
         random.shuffle(f)
         username = ''.join(f)
+        username = username+'bot'
         if username in banned[0]:
-            c = d = random.choices(a)
-            d = random.choices(e)
-            f = [c[0], d[0], "_", d[0], d[0]]
+            c = random.choices(a)
+            d = random.choices(a)
+            s = random.choices(a)
+            f = [c[0], s[0], d[0]]
             random.shuffle(f)
             username = ''.join(f)
+            username = username+'bot'
         else:
             pass
     if choice == "8":
-        c = d = random.choices(a)
+        c = random.choices(a)
         d = random.choices(e)
-        f = [c[0], d[0], "_", d[0], c[0]]
-        random.shuffle(f)
+        s = random.choices(b)
+        f = [c[0], s[0], s[0], s[0], d[0]]    
         username = ''.join(f)
         if username in banned[0]:
-            c = d = random.choices(a)
-            d = random.choices(e)
-            f = [d[0], c[0], "_", d[0], c[0]]
-            random.shuffle(f)
-            username = ''.join(f)
-        else:
-            pass
-    if choice == "تيست":
-        c = d = random.choices(a)
-        d = random.choices(b)
-        f = [c[0], d[0], c[0], c[0], c[0],c[0],d[0],d[0],c[0]]
-        random.shuffle(f)
-        username = ''.join(f)
-        if username in banned[0]:
-            c = d = random.choices(a)
+            c = random.choices(a)
             d = random.choices(a)
-            f = [c[0], d[0], c[0], c[0], c[0],c[0],d[0],d[0],c[0]]
-            random.shuffle(f)
+            s = random.choices(b)
+            f = [c[0], s[0], s[0], s[0], d[0]]    
             username = ''.join(f)
         else:
             pass
     if choice == "9":
         c = d = random.choices(a)
         d = random.choices(e)
-        f = [c[0], "_", c[0], "_", d[0]]
+        f = [c[0], c[0], c[0], c[0], c[0], c[0], d[0]]
+        random.shuffle(f)
         username = ''.join(f)
         if username in banned[0]:
-            c = d = random.choices(a)
+            c = d = random.choices(e)
+            d = random.choices(a)
+            f = [d[0], c[0], c[0], c[0], c[0], c[0], c[0]]
+            random.shuffle(f)
+            username = ''.join(f)
+        else:
+            pass
+    if choice == "10":
+        c = random.choices(a)
+        d = random.choices(a)
+        s = random.choices(e)
+        f = [c[0], "_", d[0], "_", s[0]]
+        username = ''.join(f)
+        if username in banned[0]:
+            c = random.choices(a)
             d = random.choices(e)
-            f = [c[0], "_", d[0], "_", c[0]]
+            s = random.choices(e)
+            f = [c[0], "_", d[0], "_", s[0]]
             username = ''.join(f)
         else:
             pass
@@ -240,22 +246,17 @@ Run Tyeps `{choice}` On `{ch}` of `{msg[0]}` !
                 try:
                     await sython(functions.channels.UpdateUsernameRequest(
                         channel=ch, username=username))
-                    await event.client.send_file(event.chat_id, "https://t.me/x_o_x/425", caption=f'''
-⤷ ☠ : @{username} 
-''')
-                    await event.client.send_file("@KNnNK", "https://t.me/x_o_x/425", caption=f'''
-⌯ Done  ☠
-⤷ UserName :  @{username} 
-⤷ Clicks : {trys}
-⤷ Quran : @x_o_x
-⤷ Store : @G_R_R
-''') 
+                    await event.client.send_file(event.chat_id, "https://t.me/x_o_x/459", caption=f'''تم الصيد @{username} - @G_R_R - @x_o_x   ''')
+                    await event.client.send_file("https://t.me/+5l2mqBQjHqViYmE6", "https://t.me/x_o_x/53", caption=f'''
+⌯ Done  🐊
+⤷ UserName : @{username} 
+⤷ Clicks : {trys} ''') 
                     break
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
                     with open("banned.txt", "a") as f:
                         f.write(f"\n{username}")
                 except Exception as eee:
-                    await sython.send_message
+                    pass
                     if "A wait of" in str(eee):
                         break
             else:
@@ -265,7 +266,7 @@ Run Tyeps `{choice}` On `{ch}` of `{msg[0]}` !
         isclaim.clear()
         isclaim.append("off")
         trys = ""
-        await event.client.send_message(event.chat_id, "تم الصيد انتهاء الفحص")
+        await event.client.send_message(event.chat_id, "انتهاء الفحص تم الصيد")
         
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.تثبيت (.*)"))
 async def _(event):
@@ -300,12 +301,12 @@ async def _(event):
                     try:
                         await sython(functions.channels.UpdateUsernameRequest(
                             channel=ch, username=username))
-                        await event.client.send_message("@KNnNK", f'''
-⌯ Done caught before @x_o_x ! ⚡
+                        await event.client.send_message("@ggooddmero", f'''
+⌯ Done caught before @illl0 ! ⚡
 ⤷ UserName : {username} 
 ⤷ Clicks : {trys} 
 ⤷ Save : ( Channel )
-⤷ By : ( @KNnNK )
+⤷ By : ( @isAndreew )
     ''')
                         break
                     except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -336,11 +337,11 @@ async def _(event):
                 await sython(functions.channels.UpdateUsernameRequest(
                     channel=ch, username=username))
                 await event.client.send_message(event.chat_id, f'''
-⌯ Done caught before @x_o_x! ⚡
+⌯ Done caught before @illl0 ! ⚡
 ⤷ UserName : {username} 
 ⤷ Clicks : {trys} 
 ⤷ Save : ( Channel )
-⤷ By : ( @KNnNK )
+⤷ By : ( @isAndreew )
     ''')
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
                 await event.client.send_message(event.chat_id, f"مبند `{username}` ❌❌")
